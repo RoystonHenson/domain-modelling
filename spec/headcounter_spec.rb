@@ -8,9 +8,4 @@ describe Headcounter do
       expect(head.counter).to eq 0
     end
   end
-  context ".count_heads" do
-    it "responds to count_heads" do
-      expect(headcounter).to respond_to(:count_heads)
-    end
-  end
 end
